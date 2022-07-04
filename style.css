@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -13,6 +16,9 @@ body{
     background: url(img/images/top-banner.png) no-repeat;
 
 }
+.about{
+    width: 80%;
+}
 .holder{
     width: 90%;
     margin: 0 auto;
@@ -24,11 +30,14 @@ body{
 .about .heading{
     color: orange;
 }
-
-/* .image{
-    width: 100%;
-   
+/* .about p{
+    padding-right: 2em;
 } */
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .image img{
     width: 100%;
 }
@@ -41,3 +50,38 @@ body{
     border-radius: 5px;
 }
 /* dream big */
+#dreamBig{
+   background: url(img/images/dream-bg.png) no-repeat right bottom;
+    min-height: 100vh;
+}
+.cont{
+    margin: 0 auto;
+    width: 90%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faceOne{
+    width: 50%;
+    padding-right: 2em;
+}
+.faceOne img{
+    width: 100%;
+    height: auto;
+}
+.faceTwo{
+    width: 50%;
+}
+.faceTwo h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.faceTwo a{
+        text-decoration: none;
+            background-image: linear-gradient(orange, tomato);
+            color: white;
+            font-weight: 700;
+            padding: 10px 40px;
+            border-radius: 5px;
+}
